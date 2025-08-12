@@ -20,6 +20,6 @@ func (m *Hello) Hello() string {
 	return "Hello"
 }
 
-func (m *Hello) Bye() string {
+func (m *Hello) Bye(foo string) string {
 	return "Bye"
 }

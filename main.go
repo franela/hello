@@ -16,7 +16,7 @@ package main
 
 type Hello struct{}
 
-func (m *Hello) Hello(foo string) string {
+func (m *Hello) Hello(foo string, bar string) string {
 	return "Hello"
 }
 
